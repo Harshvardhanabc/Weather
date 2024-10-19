@@ -37,5 +37,5 @@ function displayWeather(data) {
     // Displaying weather data
     document.getElementById('cityName').textContent = `🌍 ${locationName}`;
     document.getElementById('temperature').textContent = `Temperature: 🌡${weatherData.temperature}°C`;
-    document.getElementById('description').textContent = `Humidity: ${weatherData.humidity}% | Wind Speed: ${weatherData.windSpeed} km/s | Visibility: ${weatherData.visibility} km | Wnid Direction: ${weatherData.windDirection}°`;
+    document.getElementById('description').textContent = `Humidity: ${weatherData.humidity}% | Wind Speed: ${weatherData.windSpeed} km/s | Visibility: ${weatherData.visibility} km | Wind Direction: ${weatherData.windDirection}°`;
 }
