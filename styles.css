@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#latInput{
+    width: 20%;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+}
+
+#cityName {
+    font-size: 28px;
+}
+
+#temperature {
+    font-size: 24px;
+}
+
+#description {
+    font-size: 18px;
+    color: #555;
+}
